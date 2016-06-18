@@ -1,0 +1,81 @@
+\documentclass{article}
+
+\usepackage{booktabs}
+\usepackage{siunitx}
+\usepackage{pgfplotstable}
+\usepackage{csvsimple}
+\usepackage[margin=1in]{geometry}
+\usepackage{pdflscape}
+\usepackage{longtable}
+
+% Setup siunitx
+\sisetup{
+	round-mode = places, % Rounds numbers
+	round-precision = 2, % Rounds to 2 places
+}
+
+\begin{document}
+
+\begin{titlepage}
+
+\centering
+{\vspace {}}
+{\scshape \LARGE Old Dominion University \par \vspace{5cm}}
+{\large Engineering Management and Systems Engineering Department \par \vspace{1cm}}
+{\large Team SDG Sky Snake UAV \par \vspace{1cm}}
+
+{\normalsize Scerbo, Dominic \par \vspace{0.5cm}}
+{\normalsize dscer001@odu.edu \par \vspace{0.5cm}}
+{\normalsize Dumaliang, Lee \par \vspace{0.5cm}}
+{\normalsize lduma002@odu.edu \par \vspace{0.5cm}}
+{\normalsize Gonda, Nathan \par \vspace{0.5cm}}
+{\normalsize ngond002@odu.edu \par \vspace{1cm}}
+
+{\large ENMA 401, Summer 2016 \par \vspace{0.5cm}}
+
+\pagenumbering{gobble}
+
+\end{titlepage}
+
+\newpage
+\pagenumbering{arabic}
+
+\section{Statement of Work}
+The SDG Aerospace Division has accepted a contract from the Norfolk United States Coast Guard to design and build a new long range and lightweight unmanned aerial vehicle for search and rescue operations (SAR). The execution team will include Aerospace engineers and modeling and simulation experts from the firm. The team will demonstrate the feasibility of the approved design by implementing a working prototype of the aircraft. The team will also develop a virtual simulator for training new pilots to control and monitor the UAV during operation. This includes constructing the Airframe structure and propulsion system for the aircraft and installing the necessary electronic components such as the camera or on-board processor. It also includes material and performance testing to ensure long range endurance of the aircraft during missions. The proposed budget is approximately \$800,000 which is comprised in large part by required materials and performance testing. Funding for this project is provided by the United States Federal Government through the Norfolk United States Coast Guard Acquisition Directorate (NUSCGAD). The project’s start date is August 17, 2017 and the expected end date is May 21, 2018 (approximately 9 months).
+
+\section{General Assumptions}
+All funding for the Sky-Snake UAV Project by the SDG Aerospace Division will be the provided by the USCG. These funds will be released in a timely manner, with no concerns of being in an at-risk funding status. The USCG assumes that a funding of \$850,000.00 will cover all cost to construct, design, test, and simulate the UAV and an additional \$450,000.00 will be set aside in a reserve that may be used as needed. USCG and SDG has also agreed on the assumption that a 9 month window will be sufficient to complete all work, considering no sporadic events, severe extrinsic seasonal weather considerations, etc. will interrupt the progress of the project. SDG assumes that USCG will readily provide all material, fuel, and electronic equipment and if unavailable will be purchased and delivered in a timely manner. USCG is also assumed to make timely design approval decisions. Skill in Aircraft Design and Simulation is also assumed to be sufficient to construct the UAV to standard.
+
+\section{Strategic Importance of the Project}
+The United States Coast Guard’s need to innovate their search and rescue capabilities by creating the Sky-Snake UAV is a project that enables SDG Aerospace Division to enhance their product design and construction capabilities and credibility. The Sky-Snake not only serves to improve the USCG’s search and rescue missions, but also will stand as a maker for the company’s UAV design and construction capabilities. With a highly competitive new market for UAVs, this partnership with the USCG servers to put SDG as a top competitor and represent that SDG is trustworthy company to produce innovation and quality products.
+
+\subsection{Customer Value Proposition}
+Since August 4th,1790 the United States Coast Guard (USCG) has been assuring a high level of safety and security among sea traveler all around sea grounds around the United States. Of the many multi-mission services that are provided by the USCG, sea search and rescues has been a service that has been in need of reform. Due to vast areas of water around the Nation, rescue mission tend to be timely, cost effect, and in some cases unsuccessful. With the protection of the citizens of the Nation their first priority, the USCG has invest vasts amounts of time and money into research for ensuring that they are able to sustain a high success rate in their search and rescue missions and found that UAV technology will accomplish this goal, while reducing mission time and cost.
+
+\subsection{Company Value Proposition}
+Derived from a solid foundation of hard work and putting high value in building a trustful relationship with their customers, SDG has been able to produce reliable and innovative products. SDG believes that the customer deserves large amounts of credit on all creations, because they have given the company the opportunity to push their limits and strive to achieve the next level in all products. In addition SDG Aerospace Division has been entrusted to help serve our country by employing their knowledge and experience to designing and constructing a UAV, which will allow the USCG to improve their search and rescue missions. By working hand in hand with the USCG, can prove to take the capabilities of the company to the next level by motivating them to push their limits on the project and also establish greater credibility for future projects.
+
+\section{Stakeholder Analysis}
+
+\begin{landscape}
+	\begin{table}
+	\caption{Approach to Stakeholders}
+	\label{tableSH2}
+	\end{table}
+	\csvautobooklongtable{stakeholders2.csv}
+\end{landscape}
+
+\section{Work-Breakdown Structure}
+Provided below in table 1 is a Work Breakdown Structure that provides the WBS \# for major activities, a PERT ID, and their respective estimated completion time. The estimated completion time is provided in three forms, optimistic activity time (a), most likely activity time (m), pessimistic activity time (b), and weighted average activity time (te). These estimated completion time values contained in the WBS will allow for a reference to each activities time in the PERT chart as well as the Gantt chart.
+
+\begin{landscape}
+	\begin{table}
+	\caption{WBS}
+	\label{tableWBS}
+	\end{table}
+	\csvautobooklongtable{wbs.csv}
+\end{landscape}
+
+\end{document}
+
+
