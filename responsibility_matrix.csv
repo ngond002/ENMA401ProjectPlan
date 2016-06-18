@@ -1,0 +1,67 @@
+,,,,,R=Responsible,M=Must be Consulted,S=May be Consulted,I=May be notified,N-Does not play a role,,,
+,,,,Description,Management,Assembly,Test,Manufacturing,Aerospace Engineering,Electrical Engineering,Computer Engineering,Simulator Engineering
+1.0,,,,Sky Snake UAV,,,,,,,,
+,1.1,,,Structural Design and Build,,,,,,,,
+,,1.1.1,,Airframe,,,,,,,,
+,,,1.1.1.1,Develop Body Design Drawing,N,S,N,S,R,I,I,I
+,,,1.1.1.2,Layout mechanical systems,N,S,I,S,R,M,N,I
+,,,1.1.1.3,Obtain required structural materials,R,M,N,M,M,N,N,N
+,,,1.1.1.4.,Construct Airframe,I,M,I,R,M,N,N,N
+,,1.1.2,,Landing Gear,,,,,,,,
+,,,1.1.2.1,Design gear type and location,N,M,N,S,R,N,N,N
+,,,1.1.2.2,"Obtain bearings, wheels, and retractors",R,M,N,M,M,N,N,N
+,,1.1.3,,Structural Tests,,,,,,,,
+,,,1.1.3.1.,Test airflow over wings,I,S,R,S,M,N,N,N
+,,,1.1.3.2.,Test landing gear retraction,M,M,R,S,S,N,N,N
+,,,1.1.3.3.,Test structural durability,M,M,R,S,M,N,N,N
+,,,1.1.3.4.,Test material in all weather conditions,M,S,R,S,S,N,N,N
+,1.2,,,Propulsion System Design and Build,,,,,,,,
+,,1.2.1,,Fuel System,,,,,,,,
+,,,1.2.1.1.,Create Fuel System Design,I,S,I,S,R,I,I,I
+,,,1.2.1.2.,Install Propellers,S,R,I,S,M,N,N,N
+,,,1.2.1.3.,Install Fuel tanks,S,R,I,S,M,N,N,N
+,,,1.2.1.4.,Install air intake and exhaust manifolds,S,R,I,S,M,N,N,N
+,,1.2.2,,Engine,,,,,,,,
+,,,1.2.2.1.,Create Engine Design,I,I,I,S,R,I,I,I
+,,,1.2.2.2.,Construct Engine Block,N,M,I,R,M,N,N,N
+,,,1.2.2.3.,Connect engine to fuel tanks and air intake,N,R,I,S,M,N,N,N
+,,1.2.3,,Propulsion Tests,,,,,,,,
+,,,1.2.3.1.,Test Ignition,S,M,R,S,M,S,N,N
+,,,1.2.3.2.,Test Fuel Injection and Flow rate,S,M,R,S,M,N,N,N
+,,,1.2.3.3.,Test Air intake,S,M,R,S,M,N,N,N
+,,,1.2.3.4.,Test Emergency Fuel,S,M,R,S,M,N,N,N
+,1.3,,,Electrical System Design and Build,,,,,,,,
+,,1.3.1.,,Electrical Components,,,,,,,,
+,,,1.3.1.1.,Create electrical diagram for all on-board systems,I,I,I,N,M,R,M,I
+,,,1.3.1.2.,Install On-Board Generator,N,R,I,S,I,M,N,N
+,,1.3.2.,,On-Board Electronics,,,,,,,,
+,,,1.3.2.1.,Install microprocessor and mother board,S,R,I,S,I,M,M,N
+,,,1.3.2.2.,Install video cameras and inferred sensors,S,R,I,S,I,M,M,N
+,,,1.3.2.3.,Install transceivers for data uplink and downlink,S,R,I,S,I,M,M,N
+,,1.3.3.,,Auxiliary Systems,,,,,,,,
+,,,1.3.3.1.,Program controller for propulsion and mechanical systems,N,S,I,S,M,M,R,M
+,,,1.3.3.2.,Integrate autopilot software for control,N,S,I,N,S,S,R,I
+,,,1.3.3.3.,Integrate automatic stability enhancement,N,S,I,N,S,S,R,I
+,,1.3.4.,,Electrical Systems Tests,,,,,,,,
+,,,1.3.4.1.,Test electrical wiring for shorts,N,S,R,N,N,M,I,N
+,,,1.3.4.2.,Test on-board generator,I,S,R,S,N,M,I,N
+,,,1.3.4.3.,Test microprocessor communication with UAV systems,N,S,R,S,S,S,M,N
+,,,1.3.4.4.,Test UAV data uplink and downlink with remote pilot,N,S,R,N,N,S,M,N
+,1.4.,,,Sky-Snake Simulator,,,,,,,,
+,,1.4.1.,,Controller and User Interface,,,,,,,,
+,,,1.4.1.1.,Design user interface that is intuitive to USCG pilots,N,N,I,N,I,N,M,R
+,,,1.4.1.2.,Design control scheme for required aircraft maneuvers,N,N,I,N,M,S,M,R
+,,1.4.2.,,Visualization,,,,,,,,
+,,,1.4.2.1.,Build realistic virtual environment for the simulator,N,N,I,N,N,N,S,R
+,,,1.4.2.2.,Implement either virtual or live user interface,N,N,I,N,I,S,M,R
+,,1.4.3.,,Simulator Tests,,,,,,,,
+,,,1.4.3.1.,Test effectiveness of user interface and control scheme,M,N,R,N,N,N,N,M
+,,,1.4.3.2.,Implement several scenarios to test boundary conditions for the UAV,M,N,R,N,S,S,S,M
+,,,1.4.3.3.,Validate UAV simulator with real-life flight tests,M,N,R,N,S,S,S,M
+,1.5.,,,Test Plan and Flight,,,,,,,,
+,,1.5.1.,,Flight Tests,,,,,,,,
+,,,1.5.1.1.,Create mock scenarios to test Search and Rescue capabilities,M,N,R,N,S,S,S,M
+,,,1.5.1.2.,Choose appropriate locations to test,R,N,M,N,S,S,S,S
+,,1.5.2.,,Results Review,,,,,,,,
+,,,1.5.2.1.,Determine scoring of various systems based on USCG requirements,R,N,I,N,N,N,N,N
+,,,1.5.2.2.,Schedule rework operations on parts that fail scoring,R,M,I,M,M,M,M,S

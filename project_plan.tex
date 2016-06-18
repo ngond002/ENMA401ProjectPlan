@@ -7,6 +7,8 @@
 \usepackage[margin=1in]{geometry}
 \usepackage{pdflscape}
 \usepackage{longtable}
+\usepackage{setspace} 
+\usepackage{adjustbox}
 
 % Setup siunitx
 \sisetup{
@@ -19,7 +21,7 @@
 \begin{titlepage}
 
 \centering
-{\vspace {}}
+{\vspace {5cm}}
 {\scshape \LARGE Old Dominion University \par \vspace{5cm}}
 {\large Engineering Management and Systems Engineering Department \par \vspace{1cm}}
 {\large Team SDG Sky Snake UAV \par \vspace{1cm}}
@@ -59,10 +61,23 @@ Derived from a solid foundation of hard work and putting high value in building 
 
 \begin{landscape}
 	\begin{table}
-	\caption{Approach to Stakeholders}
-	\label{tableSH2}
+	\centering
+	
+	\csvreader[ no head,
+	before reading=\footnotesize
+		\caption{Approach to Stakeholders}
+		\label{tableSH2}
+		\begin{adjustbox}{max width=\columnwidth},
+	after reading=\end{adjustbox},
+	tabular={ p{2cm} | p{2cm} | p{2cm} | p{2cm} },
+	late after line=\\] {stakeholders2.csv}{}
+	{\csvcoli & \csvcolii & \csvcoliii & \csvcoliv}		
+	
 	\end{table}
-	\csvautobooklongtable{stakeholders2.csv}
+	
+	
+	
+	
 \end{landscape}
 
 \section{Work-Breakdown Structure}

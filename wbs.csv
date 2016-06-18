@@ -1,0 +1,66 @@
+,,,,Description,PERT ID,a,m,b,tavg
+1.0,,,,Sky Snake UAV,,230,250,273,251
+,1.1,,,Structural Design and Build,,,,,
+,,1.1.1,,Airframe,,,,,
+,,,1.1.1.1,Develop Body Design Drawing,A,12,16,21,16
+,,,1.1.1.2,Layout mechanical systems,B,13,14,15,14
+,,,1.1.1.3,Obtain required structural materials,C,2,3,3,3
+,,,1.1.1.4,Construct Airframe,D,11,12,13,12
+,,1.1.2,,Landing Gear,,,,,
+,,,1.1.2.1,Design gear type and location,E,11,12,13,12
+,,,1.1.2.2,"Obtain bearings, wheels, and retractors",F,2,3,7,3
+,,1.1.3,,Structural Tests,,,,,
+,,,1.1.3.1.,Test airflow over wings,G,1,3,7,3
+,,,1.1.3.2.,Test landing gear retraction,H,1,3,7,3
+,,,1.1.3.3.,Test structural durability,I,1,3,7,3
+,,,1.1.3.4.,Test material in all weather conditions,J,1,3,7,3
+,1.2,,,Propulsion System Design and Build,,,,,
+,,1.2.1,,Fuel System,,,,,
+,,,1.2.1.1.,Create Fuel System Design,K,11,12,13,12
+,,,1.2.1.2.,Install Propellers,L,2,2,5,3
+,,,1.2.1.3.,Install Fuel tanks,M,2,2,3,2
+,,,1.2.1.4.,Install air intake and exhaust manifolds,N,1,2,3,2
+,,1.2.2,,Engine,,,,,
+,,,1.2.2.1.,Create Engine Design,O,11,12,13,12
+,,,1.2.2.2.,Construct Engine Block,P,6,6,7,6
+,,,1.2.2.3.,Connect engine to fuel tanks and air intake,Q,1,2,5,2
+,,1.2.3,,Propulsion Tests,,,,,
+,,,1.2.3.1.,Test Ignition,R,1,2,2,2
+,,,1.2.3.2.,Test Fuel Injection and Flow rate,S,1,3,4,3
+,,,1.2.3.3.,Test Air intake,T,1,2,3,2
+,,,1.2.3.4.,Test Emergency Fuel,U,1,2,5,2
+,1.3,,,Electrical System Design and Build,,,,,
+,,1.3.1.,,Electrical Components,,,,,
+,,,1.3.1.1.,Create electrical diagram for all on-board systems,V,7,10,14,10
+,,,1.3.1.2.,Install On-Board Generator,W,2,5,7,5
+,,1.3.2.,,On-Board Electronics,,,,,
+,,,1.3.2.1.,Install microprocessor and mother board,X,4,5,5,5
+,,,1.3.2.2.,Install video cameras and infrared sensors,Y,5,6,6,6
+,,,1.3.2.3.,Install transceivers for data uplink and downlink,Z,4,5,5,5
+,,1.3.3.,,Auxiliary Systems,,,,,
+,,,1.3.3.1.,Program controller for propulsion and mechanical systems,AA,3,4,4,4
+,,,1.3.3.2.,Integrate autopilot software for control,BB,3,4,4,4
+,,,1.3.3.3.,Integrate automatic stability enhancement,CC,3,4,4,4
+,,1.3.4.,,Electrical Systems Tests,,,,,
+,,,1.3.4.1.,Test electrical wiring for shorts,DD,1,1,1,1
+,,,1.3.4.2.,Test on-board generator,EE,2,3,7,3
+,,,1.3.4.3.,Test microprocessor communication with UAV systems,FF,3,5,14,6
+,,,1.3.4.4.,Test UAV data uplink and downlink with remote pilot,GG,2,7,14,7
+,1.4.,,,Sky-Snake Simulator,,,,,
+,,1.4.1.,,Controller and User Interface,,,,,
+,,,1.4.1.1.,Develop user interface that is intuitive to USCG pilots,HH,7,14,18,14
+,,,1.4.1.2.,Develop control scheme for required aircraft maneuvers,II,7,12,16,12
+,,1.4.2.,,Visualization,,,,,
+,,,1.4.2.1.,Build realistic virtual environment for the simulator,JJ,13,14,15,14
+,,,1.4.2.2.,Implement either virtual or live user interface,KK,7,8,8,8
+,,1.4.3.,,Simulator Tests,,,,,
+,,,1.4.3.1.,Test effectiveness of user interface and control scheme,LL,5,6,6,6
+,,,1.4.3.2.,Implement several scenarios to test boundary conditions for the UAV,MM,4,5,5,5
+,,,1.4.3.3.,Validate UAV simulator with real-life flight tests,NN,1,2,2,2
+,1.5.,,,Test Plan and Flight,,,,,
+,,1.5.1.,,Flight Tests,,,,,
+,,,1.5.1.1.,Create mock scenarios to test Search and Rescue capabilities,OO,12,13,13,13
+,,,1.5.1.2.,Choose appropriate locations to test,PP,2,3,3,3
+,,1.5.2.,,Results Review,,,,,
+,,,1.5.2.1.,Determine scoring of various systems based on USCG requirements,QQ,4,5,5,5
+,,,1.5.2.2.,Schedule rework operations on parts that fail scoring,RR,3,3,4,3
